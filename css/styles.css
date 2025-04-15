@@ -131,6 +131,37 @@ footer img {
   margin: 10px;
 }
 
+/* mobile friendly css */ 
+@media (min-width: 320px) {
+  .index-page body{
+    background-color: ghostwhite;
+    font-size: 1em;
+  }
+
+  .index-page h1 { 
+    font-size: 24px;
+    color: darkblue;
+   }
+
+   .index-page img { 
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .index-page h2 {
+    font-size: 24px;
+    color: darkgreen;
+  }
+
+  .index-page nav a {
+    font-weight: bold;
+    padding: 12px;
+
+  }
+
+}
+
 
 
 
