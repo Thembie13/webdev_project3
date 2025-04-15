@@ -145,39 +145,55 @@ footer img {
  }
 
 /* mobile friendly css */ 
-@media (min-width: 320px) {
+@media (min-width: 600px) {
   .index-page body{
     background-color: ghostwhite;
     font-size: 1em;
   }
 
-  .index-page h1 { 
-    font-size: 24px;
-    color: darkblue;
-   }
-
-   .index-page img { 
-    width: 90%;
-    display: block;
-    margin: 0 auto;
+  .hi-img { 
+    width: 50%;
   }
 
-  .index-page h2 {
-    font-size: 24px;
-    color: darkgreen;
+  .index-page nav ul{
+    flex-direction: row;
+    justify-content: space-between;
   }
 
-  .index-page nav a {
-    font-weight: bold;
-    padding: 12px;
+  .index-page h1 h2{ 
+    font-size: 24px; 
+  }
 
+  .greeting-index{
+    font-size: 4rem;
+  }
+
+@media (min-width: 1024px) {
+  .index-page body{ 
+    background-color: lightgrey;
+    font-size: 16px;
   }
 
   .hi-img { 
-    width: 100%;
+    width: 150%;
   }
 
+  .index-page h1 h2{ 
+    font-weight: !important;
+    text-decoration-color: darkolivegreen;
+  }
+ 
+  .index-page nav ul{ 
+    padding: 0 50px;
+  }
+
+ .greeting-index{
+  font-size: 6rem;  
+  }
+
+
 }
+
 
 
 
