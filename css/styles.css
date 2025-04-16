@@ -191,9 +191,14 @@ footer img {
   font-size: 6rem;  
   }
 
-
 }
 
+
+/* map style */
+#map {
+  width: 100%;
+  height: 500px;
+}
 
 
 
