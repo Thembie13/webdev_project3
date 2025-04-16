@@ -167,6 +167,7 @@ footer img {
   .greeting-index{
     font-size: 4rem;
   }
+}
 
 @media (min-width: 1024px) {
   .index-page body{ 
@@ -190,7 +191,6 @@ footer img {
  .greeting-index{
   font-size: 6rem;  
   }
-
 }
 
 
