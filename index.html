@@ -5,8 +5,14 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/script.js" defer></script>
+    <!-- bxSlider CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <!-- jQuery Library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- bxSlider JavaScript -->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!--custom my own -->
+    <script src="js/script.js" defer></script>
   </head>
 
   <body class="index-page">
@@ -54,13 +60,12 @@
       </section>
     </main>
     <div class="slideshow"> 
-      <ul class="bxslider">
-        <li><img src="images/chess.jpg" alt="chess"> 
-        <li><img src="images/tech.png" alt="tech">
-        <li><img src="images/books.jpg" alt="books">
-      </ul> 
+      <div class="bxslider">
+        <div><img src="images/chess.jpg" title="chess" /></div>
+        <div><img src="images/tech.png" title="tech" /></div>
+        <div><img src="images/books.jpg" title="books" /></div>
+      </div> 
     </div> 
-    </script>
     <footer>
       <p>Created by Tsithembile Tembo</p>
     </footer>
